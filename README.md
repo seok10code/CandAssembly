@@ -7,28 +7,54 @@ C-language
 프로그래밍의 정의
 프로그램 : 하드웨어를 동작시켜 특정 작업을 수행하는 소프트웨어
 --> 다양한 종류의 컴퓨터 프로그램, 스마트폰 앱 등
-
 프로그래밍 : 인간이 컴퓨터에 명령하는 작업지시서를 만드는 직업
-
 프로그래밍 언어 : 작업 지시에 사용되는 언어
 
+
 a. 고급언어와 저급언어
-
-High Level Language
+High Level Language (사람중심) : 인간이 이해하기 쉬운 언어
 - C, C++, C#, JAVA, pascal, Fortran, Cobol, Python
-
-Low Level Language
+Low Level Language (기계중심) : 기계가 이해하기 쉬운 언어
 - 기계어, 어셈블리어
 
-b. 고급언어와 저급언어의 특징
-- 저급언어(Low Level Language)
 
-CPU가 처리하는 명령어와 1:1로 대응
+b. 고급언어와 저급언어의 특징
+
+저급언어(Low Level Language) :CPU가 처리하는 명령어와 1:1로 대응
 - CPU마다 사용하는 명령어가 다름
 - CPU 내부 동작을 이해해야 프로그래밍이 가능
 - 하드웨어에 따른 별도 프로그래밍이 요구됨
 
+고급언어 (High Level Language) : 해당 하드웨어에 맞게 번역하는 프로그램을 이용
+- 유지보수가 교적 쉬움
+- CUP 동작을 자세히 알아야 할 필요 없음
+- 하드웨어마다 별도의 프로그래밍 불필요
 
+컴파일러 : 컴퓨터가 이해하는 언어로 번역하는 프로그램
+
+C언어 프로그래밍 절차
+소스파일.c  --(COmpiler)--> 오프젝트파일.obj --(Linker)--> 실행파일.exe 
+
+C언어의 특징
+- 1972년 AT&T의 벨연구소의 데니스리치와 켄톰슨에 의해 개발
+- B언어를 기반으로 하여 개발
+- 고급언어인 C언어로 작성된 최초의 운영체제가 UNIX
+- C언어의 표준: ANSI(American National Standard Institude) C
+
+간결하고 효율적인 언어
+  포인터와 메모리 관리 가능
+  작은크기의 프로그램
+  빠른 실행속도
+우수한 이식성
+  다양한 CPU와 플랫폼의 컴파일러를 지원
+다소 배우기가 어려움
+  비트 포인터 메모리 할당 해제 등의 관리
+  
+통합개발환경(IDE)
+  Integrated Development Environement
+  프로그램 개발 절차를 하나의 프로그램에서 수행되도록 제공하는 환경
+  소스코드 작성, 컴파일, 링크, 실행, 디버깅 등을 하나의 프로그램에서 수행
+ex) Visual Studio, DEV C++, Code:Blocks, IDE one
 
 
 
